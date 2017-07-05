@@ -14,6 +14,8 @@
 		260B597B1F0CC12600E06BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260B59791F0CC12600E06BB3 /* LaunchScreen.storyboard */; };
 		260B59861F0CC12600E06BB3 /* LeHongPhong_14110409_bai2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B59851F0CC12600E06BB3 /* LeHongPhong_14110409_bai2Tests.swift */; };
 		260B59911F0CC12600E06BB3 /* LeHongPhong_14110409_bai2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B59901F0CC12600E06BB3 /* LeHongPhong_14110409_bai2UITests.swift */; };
+		260B599F1F0CCD5500E06BB3 /* bai4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B599E1F0CCD5500E06BB3 /* bai4.swift */; };
+		260B59A11F0CCF8B00E06BB3 /* bai5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B59A01F0CCF8B00E06BB3 /* bai5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		260B598C1F0CC12600E06BB3 /* LeHongPhong_14110409_bai2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeHongPhong_14110409_bai2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		260B59901F0CC12600E06BB3 /* LeHongPhong_14110409_bai2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeHongPhong_14110409_bai2UITests.swift; sourceTree = "<group>"; };
 		260B59921F0CC12600E06BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260B599E1F0CCD5500E06BB3 /* bai4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bai4.swift; sourceTree = "<group>"; };
+		260B59A01F0CCF8B00E06BB3 /* bai5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bai5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				260B59771F0CC12600E06BB3 /* Assets.xcassets */,
 				260B59791F0CC12600E06BB3 /* LaunchScreen.storyboard */,
 				260B597C1F0CC12600E06BB3 /* Info.plist */,
+				260B599E1F0CCD5500E06BB3 /* bai4.swift */,
+				260B59A01F0CCF8B00E06BB3 /* bai5.swift */,
 			);
 			path = LeHongPhong_14110409_bai2;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260B599F1F0CCD5500E06BB3 /* bai4.swift in Sources */,
 				260B59731F0CC12600E06BB3 /* ViewController.swift in Sources */,
+				260B59A11F0CCF8B00E06BB3 /* bai5.swift in Sources */,
 				260B59711F0CC12600E06BB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +515,7 @@
 				260B59971F0CC12600E06BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		260B59981F0CC12600E06BB3 /* Build configuration list for PBXNativeTarget "LeHongPhong_14110409_bai2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				260B599A1F0CC12600E06BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		260B599B1F0CC12600E06BB3 /* Build configuration list for PBXNativeTarget "LeHongPhong_14110409_bai2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				260B599D1F0CC12600E06BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
